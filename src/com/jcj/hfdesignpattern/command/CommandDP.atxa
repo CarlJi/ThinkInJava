@@ -1,0 +1,229 @@
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#CommandDP.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node19ue0clsix1338 .
+
+_:node19ue0clsix1338 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command> ;
+	atxa-core:posX "93" ;
+	atxa-core:posY "184" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoor> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$Command> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$Light> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoorOpenCommand> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$LightOnCommand> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$RemoteControlTest> .
+
+_:node19ue0clsix1338 atxa-core:contains _:node19ue0clsix1339 .
+
+_:node19ue0clsix1339 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoor> ;
+	atxa-core:posX "210" ;
+	atxa-core:posY "563" .
+
+_:node19ue0clsix1338 atxa-core:contains _:node19ue0clsix1340 .
+
+_:node19ue0clsix1340 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$Command> ;
+	atxa-core:posX "976" ;
+	atxa-core:posY "213" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$Command> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$Command.Execute()> .
+
+_:node19ue0clsix1340 atxa-core:contains _:node19ue0clsix1341 .
+
+_:node19ue0clsix1341 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$Command.Execute()> ;
+	atxa-core:posX "977" ;
+	atxa-core:posY "235" .
+
+_:node19ue0clsix1338 atxa-core:contains _:node19ue0clsix1342 .
+
+_:node19ue0clsix1342 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$Light> ;
+	atxa-core:posX "1629" ;
+	atxa-core:posY "548" .
+
+_:node19ue0clsix1338 atxa-core:contains _:node19ue0clsix1343 .
+
+_:node19ue0clsix1343 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoorOpenCommand> ;
+	atxa-core:posX "621" ;
+	atxa-core:posY "507" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoorOpenCommand> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoorOpenCommand.GarageDoorOpenCommand(GarageDoor,)> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoorOpenCommand.Execute()> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoorOpenCommand.agrageDoor> .
+
+_:node19ue0clsix95 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19ue0clsix1343 ;
+	rdf:object _:node19ue0clsix1340 ;
+	atxa-core:bendpoint _:node19ue0clsix1344 .
+
+_:node19ue0clsix1344 atxa-core:bpLocation "846,276" ;
+	atxa-core:bpIndex "0" .
+
+_:node19ue0clsix95 atxa-core:bendpoint _:node19ue0clsix1345 .
+
+_:node19ue0clsix1345 atxa-core:bpLocation "1048,276" ;
+	atxa-core:bpIndex "1" .
+
+_:node19ue0clsix1343 atxa-core:contains _:node19ue0clsix1346 .
+
+_:node19ue0clsix1346 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoorOpenCommand.GarageDoorOpenCommand(GarageDoor,)> ;
+	atxa-core:posX "622" ;
+	atxa-core:posY "549" .
+
+_:node19ue0clsix1343 atxa-core:contains _:node19ue0clsix1347 .
+
+_:node19ue0clsix1347 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoorOpenCommand.Execute()> ;
+	atxa-core:posX "622" ;
+	atxa-core:posY "569" .
+
+_:node19ue0clsix1195 a atxa-core:link ;
+	atxa-core:model atxa-jdt:refType ;
+	rdf:subject _:node19ue0clsix1347 ;
+	rdf:object _:node19ue0clsix1339 .
+
+_:node19ue0clsix1196 a atxa-core:link ;
+	atxa-core:model atxa-jdt:refType ;
+	rdf:subject _:node19ue0clsix1347 ;
+	rdf:object _:node19ue0clsix1348 .
+
+_:node19ue0clsix1343 atxa-core:contains _:node19ue0clsix1348 .
+
+_:node19ue0clsix1348 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$GarageDoorOpenCommand.agrageDoor> ;
+	atxa-core:posX "622" ;
+	atxa-core:posY "529" .
+
+_:node19ue0clsix1338 atxa-core:contains _:node19ue0clsix1349 .
+
+_:node19ue0clsix1349 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$LightOnCommand> ;
+	atxa-core:posX "1120" ;
+	atxa-core:posY "596" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$LightOnCommand> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$LightOnCommand.Execute()> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$LightOnCommand.LightOnCommand(Light,)> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$LightOnCommand.light> .
+
+_:node19ue0clsix94 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19ue0clsix1349 ;
+	rdf:object _:node19ue0clsix1340 ;
+	atxa-core:bendpoint _:node19ue0clsix1350 .
+
+_:node19ue0clsix1350 atxa-core:bpLocation "1295,276" ;
+	atxa-core:bpIndex "0" .
+
+_:node19ue0clsix94 atxa-core:bendpoint _:node19ue0clsix1351 .
+
+_:node19ue0clsix1351 atxa-core:bpLocation "1048,276" ;
+	atxa-core:bpIndex "1" .
+
+_:node19ue0clsix1349 atxa-core:contains _:node19ue0clsix1352 .
+
+_:node19ue0clsix1352 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$LightOnCommand.Execute()> ;
+	atxa-core:posX "1121" ;
+	atxa-core:posY "638" .
+
+_:node19ue0clsix1153 a atxa-core:link ;
+	atxa-core:model atxa-jdt:refType ;
+	rdf:subject _:node19ue0clsix1352 ;
+	rdf:object _:node19ue0clsix1342 .
+
+_:node19ue0clsix1237 a atxa-core:link ;
+	atxa-core:model atxa-jdt:refType ;
+	rdf:subject _:node19ue0clsix1352 ;
+	rdf:object _:node19ue0clsix1353 .
+
+_:node19ue0clsix1349 atxa-core:contains _:node19ue0clsix1354 .
+
+_:node19ue0clsix1354 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$LightOnCommand.LightOnCommand(Light,)> ;
+	atxa-core:posX "1121" ;
+	atxa-core:posY "658" .
+
+_:node19ue0clsix1349 atxa-core:contains _:node19ue0clsix1353 .
+
+_:node19ue0clsix1353 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$LightOnCommand.light> ;
+	atxa-core:posX "1121" ;
+	atxa-core:posY "618" .
+
+_:node19ue0clsix1338 atxa-core:contains _:node19ue0clsix1355 .
+
+_:node19ue0clsix1355 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl> ;
+	atxa-core:posX "385" ;
+	atxa-core:posY "247" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl.buttonQasPresent()> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl.setCommand(Command,)> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl.SimpleRemoteControl()> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl.slot> .
+
+_:node19ue0clsix1355 atxa-core:contains _:node19ue0clsix1356 .
+
+_:node19ue0clsix1356 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl.buttonQasPresent()> ;
+	atxa-core:posX "386" ;
+	atxa-core:posY "289" .
+
+_:node19ue0clsix1355 atxa-core:contains _:node19ue0clsix1357 .
+
+_:node19ue0clsix1357 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl.setCommand(Command,)> ;
+	atxa-core:posX "386" ;
+	atxa-core:posY "309" .
+
+_:node19ue0clsix1355 atxa-core:contains _:node19ue0clsix1358 .
+
+_:node19ue0clsix1358 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl.SimpleRemoteControl()> ;
+	atxa-core:posX "386" ;
+	atxa-core:posY "329" .
+
+_:node19ue0clsix1355 atxa-core:contains _:node19ue0clsix1359 .
+
+_:node19ue0clsix1359 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$SimpleRemoteControl.slot> ;
+	atxa-core:posX "386" ;
+	atxa-core:posY "269" .
+
+_:node19ue0clsix1338 atxa-core:contains _:node19ue0clsix1360 .
+
+_:node19ue0clsix1360 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$RemoteControlTest> ;
+	atxa-core:posX "99" ;
+	atxa-core:posY "325" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$RemoteControlTest> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$RemoteControlTest.main(String[],)> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$RemoteControlTest.RemoteControlTest()> .
+
+_:node19ue0clsix1360 atxa-core:contains _:node19ue0clsix1361 .
+
+_:node19ue0clsix1361 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$RemoteControlTest.main(String[],)> ;
+	atxa-core:posX "100" ;
+	atxa-core:posY "347" .
+
+_:node19ue0clsix1360 atxa-core:contains _:node19ue0clsix1362 .
+
+_:node19ue0clsix1362 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.command$RemoteControlTest.RemoteControlTest()> ;
+	atxa-core:posX "100" ;
+	atxa-core:posY "367" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#CommandDP.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node19ue0clsix1339 , _:node19ue0clsix1341 , _:node19ue0clsix1340 , _:node19ue0clsix1342 , _:node19ue0clsix1346 , _:node19ue0clsix1347 , _:node19ue0clsix1348 , _:node19ue0clsix1343 , _:node19ue0clsix1352 , _:node19ue0clsix1354 , _:node19ue0clsix1353 , _:node19ue0clsix1349 , _:node19ue0clsix1356 , _:node19ue0clsix1357 , _:node19ue0clsix1358 , _:node19ue0clsix1359 , _:node19ue0clsix1355 , _:node19ue0clsix1361 , _:node19ue0clsix1362 , _:node19ue0clsix1360 , _:node19ue0clsix1338 , atxa-core:docRoot , _:node19ue0clsix1339 , _:node19ue0clsix1341 , _:node19ue0clsix1340 , _:node19ue0clsix1342 , _:node19ue0clsix1346 , _:node19ue0clsix1347 , _:node19ue0clsix1348 , _:node19ue0clsix1343 , _:node19ue0clsix1352 , _:node19ue0clsix1354 , _:node19ue0clsix1353 , _:node19ue0clsix1349 , _:node19ue0clsix1356 , _:node19ue0clsix1357 , _:node19ue0clsix1358 , _:node19ue0clsix1359 , _:node19ue0clsix1355 , _:node19ue0clsix1361 , _:node19ue0clsix1362 , _:node19ue0clsix1360 , _:node19ue0clsix1338 , atxa-core:docRoot , _:node19ue0clsix95 , _:node19ue0clsix1195 , _:node19ue0clsix1196 , _:node19ue0clsix94 , _:node19ue0clsix1153 , _:node19ue0clsix1237 , _:node19ue0clsix95 , _:node19ue0clsix1195 , _:node19ue0clsix1196 , _:node19ue0clsix94 , _:node19ue0clsix1153 , _:node19ue0clsix1237 .
+

@@ -1,0 +1,121 @@
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#Builder.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node19q5hfar6x7183 .
+
+_:node19q5hfar6x7183 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder> ;
+	atxa-core:posX "247" ;
+	atxa-core:posY "175" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Product> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Director> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$ConcreteBuilder> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Builder> .
+
+_:node19q5hfar6x7183 atxa-core:contains _:node19q5hfar6x7184 .
+
+_:node19q5hfar6x7184 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Product> ;
+	atxa-core:posX "799" ;
+	atxa-core:posY "272" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Product> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Product.Product()> .
+
+_:node19q5hfar6x7184 atxa-core:contains _:node19q5hfar6x7185 .
+
+_:node19q5hfar6x7185 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Product.Product()> ;
+	atxa-core:posX "800" ;
+	atxa-core:posY "294" .
+
+_:node19q5hfar6x7183 atxa-core:contains _:node19q5hfar6x7186 .
+
+_:node19q5hfar6x7186 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Director> ;
+	atxa-core:posX "253" ;
+	atxa-core:posY "258" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Director> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Director.getBuilder(Builder,)> .
+
+_:node19q5hfar6x7186 atxa-core:contains _:node19q5hfar6x7187 .
+
+_:node19q5hfar6x7187 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Director.getBuilder(Builder,)> ;
+	atxa-core:posX "254" ;
+	atxa-core:posY "280" .
+
+_:node19q5hfar6x7138 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node19q5hfar6x7187 ;
+	rdf:object _:node19q5hfar6x7188 .
+
+_:node19q5hfar6x7183 atxa-core:contains _:node19q5hfar6x7189 .
+
+_:node19q5hfar6x7189 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$ConcreteBuilder> ;
+	atxa-core:posX "529" ;
+	atxa-core:posY "290" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$ConcreteBuilder> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$ConcreteBuilder.buildPart()> , <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$ConcreteBuilder.getResult()> .
+
+_:node19q5hfar6x7028 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19q5hfar6x7189 ;
+	rdf:object _:node19q5hfar6x7190 ;
+	atxa-core:bendpoint _:node19q5hfar6x7191 .
+
+_:node19q5hfar6x7191 atxa-core:bpLocation "607,267" ;
+	atxa-core:bpIndex "0" .
+
+_:node19q5hfar6x7189 atxa-core:contains _:node19q5hfar6x7192 .
+
+_:node19q5hfar6x7192 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$ConcreteBuilder.buildPart()> ;
+	atxa-core:posX "530" ;
+	atxa-core:posY "312" .
+
+_:node19q5hfar6x7189 atxa-core:contains _:node19q5hfar6x7193 .
+
+_:node19q5hfar6x7193 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$ConcreteBuilder.getResult()> ;
+	atxa-core:posX "530" ;
+	atxa-core:posY "332" .
+
+_:node19q5hfar6x7105 a atxa-core:link ;
+	atxa-core:model atxa-jdt:calls ;
+	rdf:subject _:node19q5hfar6x7193 ;
+	rdf:object _:node19q5hfar6x7185 .
+
+_:node19q5hfar6x7183 atxa-core:contains _:node19q5hfar6x7190 .
+
+_:node19q5hfar6x7190 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Builder> ;
+	atxa-core:posX "530" ;
+	atxa-core:posY "204" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Builder> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Builder.buildPart()> .
+
+_:node19q5hfar6x7190 atxa-core:contains _:node19q5hfar6x7188 .
+
+_:node19q5hfar6x7188 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#com.jcj.hfdesignpattern.builder$Builder.buildPart()> ;
+	atxa-core:posX "531" ;
+	atxa-core:posY "226" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#Builder.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node19q5hfar6x7185 , _:node19q5hfar6x7184 , _:node19q5hfar6x7187 , _:node19q5hfar6x7186 , _:node19q5hfar6x7192 , _:node19q5hfar6x7193 , _:node19q5hfar6x7189 , _:node19q5hfar6x7188 , _:node19q5hfar6x7190 , _:node19q5hfar6x7183 , atxa-core:docRoot , _:node19q5hfar6x7185 , _:node19q5hfar6x7184 , _:node19q5hfar6x7187 , _:node19q5hfar6x7186 , _:node19q5hfar6x7192 , _:node19q5hfar6x7193 , _:node19q5hfar6x7189 , _:node19q5hfar6x7188 , _:node19q5hfar6x7190 , _:node19q5hfar6x7183 , atxa-core:docRoot , _:node19q5hfar6x7138 , _:node19q5hfar6x7028 , _:node19q5hfar6x7105 , _:node19q5hfar6x7138 , _:node19q5hfar6x7028 , _:node19q5hfar6x7105 .
+
